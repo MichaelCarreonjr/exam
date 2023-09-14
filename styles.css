@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;  /* new */
+    flex-direction: column;  /* new */
+    align-items: center;  /* new */
+    min-height: 100vh;  /* new */
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: 100%;  /* new */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.image-section, .video-section {
+    display: flex;
+    justify-content: center; /* center items horizontally */
+    flex-wrap: wrap; /* allows items to wrap to next line if they can't fit */
+    width: 100%;  /* ensures full width */
+}
+
+.image-section img{
+    width: 200px;
+    height: 450px;
+    object-fit: cover; /* ensures content scales correctly within the fixed size */
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.video-section video{
+
+    object-fit: cover;
+}

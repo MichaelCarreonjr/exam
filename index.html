@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Switcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="image-section">
+        <img id="image1" src="ydeUzR.webp" alt="Image 1">
+        <button onclick="changeImage('image1')">Change Image</button>
+
+        <img id="image2" src="pic3.jpg" alt="Image 2">
+        <button onclick="changeImage('image2')">Change Image</button>
+
+        <img id="image3" src="pic5.jpg" alt="Image 3">
+        <button onclick="changeImage('pic5.jpg')">Change Image</button>
+    </section>
+
+    <section class="video-section">
+        <video id="video1" width="320" height="240" controls autoplay muted>
+            <source src="y2mate.is - Acting like a poor BOT then POPPING OFF with a Mythic Sniper in 1v1…-kfruo80O4nU-720p-1694676623.mp4" type="video/mp4">
+        </video>
+        <button onclick="changeVideo('video1')">Change Video</button>
+
+        <video id="video2" width="320" height="240" controls autoplay muted>
+            <source src="y2mate.is - My Random Teammates Reactions to my Snipes in the Voice Chat are Hilarious -0uJtFFGvSBw-240pp-1694676810.mp4" type="video/mp4">
+        </video>
+        <button onclick="changeVideo('video2')">Change Video</button>
+
+        <video id="video3" width="320" height="240" controls autoplay muted>
+            <source src="y2mate.is - I made a Girl impressed with my snipes and her reactions are Intense Comeback -cACymbtuZUw-240pp-1694677153.mp4" type="video/mp4">
+        </video>
+        <button onclick="changeVideo('video3')">Change Video</button>
+    </section>
+
+    <footer>
+        <p>© 2023 Media Switcher. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
